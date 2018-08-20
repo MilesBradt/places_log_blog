@@ -1,16 +1,10 @@
-#antarctica {
+.container {
+  margin-bottom: 5%;
+}
+
+.col-md-3 img {
   width: 75%;
   height: 75%;
-}
-
-img#antarctica {
-  display: flex;
-  margin: auto;
-  padding: 15px;
-}
-
-h2#antarctica-details {
-  text-align: center;
 }
 
 .btn {
@@ -29,4 +23,25 @@ h2#antarctica-details {
 
 .panel {
   display: none;
+  margin: auto;
+  padding: 15px;
+}
+
+h2 {
+  text-align: center;
+}
+
+img.imgCol:hover {
+  transform: scale(1.03);
+  display: flex;
+  margin: auto;
+  width: 75%;
+  height: 75%;
+}
+
+img {
+  display: flex;
+  margin: auto;
+  width: 75%;
+  height: 75%;
 }

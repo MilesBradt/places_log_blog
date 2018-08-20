@@ -1,41 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title></title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h2>Antarctica</h2>
-          <img id="antarctica" src="img/antarctica.jpg">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- Antarctica -->
+      <div class="col-md-3">
+        <h2>Antarctica</h2>
+        <img id="imgAnt" class="imgCol"  src="img/antarctica.jpg" alt="a picture of Antarctica">
+      </div>
 
-        </div>
-        <div id="miami" class="col-md-3">
+      <!-- Alska -->
+      <div class="col-md-3">
+        <h2>Miami, Alaska</h2>
+        <img id="imgMiami" class="imgCol" src="img/alaska.jpg" alt="a picture of Alaska">
+      </div>
 
-        </div>
-        <div id="dakota" class="col-md-3">
+      <!-- North Dakota -->
+      <div id="dakota" class="col-md-3">
+        <h2>Harpoonelk, North Dakota</h2>
+        <img id="imgND" class="imgCol" src="img/dakota.jpg" alt="a picture of North Dakota">
+      </div>
 
-        </div>
-        <div id="moonbase" class="col-md-3">
-
-        </div>
+      <!-- Moonbase -->
+      <div id="moonbase" class="col-md-3">
+        <h2>Jimmy Dean Station, The Moon</h2>
+        <img id="imgMoon" class="imgCol" src="img/moon.jpg" alt="a picture of the moon">
       </div>
     </div>
 
-    <div class="panel">
+    <!-- Panels -->
+
+    <!-- Antarctica -->
+    <div id="antPanel" class="panel">
       <h2 id="antarctica-details">Antarctica</h2>
-      <img id="antarctica" src="img/antarctica.jpg">
+      <img src="img/antarctica.jpg">
 
       <ul id="antarctica-details">
-        
+
       </ul>
       <button type="button" class="btn">Take me away from here</button>
     </div>
-  </body>
+
+    <!-- Alaska -->
+    <div id="miamiPanel" class="panel">
+      <h2 id="miami-details">Miami, Alaska</h2>
+      <img src="img/alaska.jpg">
+
+      <ul id="miami-details">
+
+      </ul>
+      <button type="button" class="btn">Take me away from here</button>
+    </div>
+
+    <!-- North Dakota -->
+    <div id="NDPanel" class="panel">
+      <h2 id="ND-details">Harpoonelk, North Dakota</h2>
+      <img src="img/dakota.jpg">
+
+      <ul id="ND-details">
+
+      </ul>
+      <button type="button" class="btn">Take me away from here</button>
+    </div>
+
+    <!-- Moon -->
+    <div id="moonPanel" class="panel">
+      <h2 id="moon-details">Jimmy Dean Station, The Moon</h2>
+      <img src="img/moon.jpg">
+
+      <ul id="moon-details">
+
+      </ul>
+      <button type="button" class="btn">Take me away from here</button>
+    </div>
+
+  </div>
+</body>
 </html>
