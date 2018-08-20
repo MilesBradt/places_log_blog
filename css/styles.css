@@ -1,10 +1,30 @@
 #antarctica {
-  width: 25%;
-  height: 25%;
+  width: 75%;
+  height: 75%;
+}
+
+img#antarctica {
+  display: flex;
+  margin: auto;
+  padding: 15px;
+}
+
+h2#antarctica-details {
+  text-align: center;
+}
+
+.btn {
+  background-color: #8086FF;
+}
+
+.bolder {
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .row {
   display: none;
+  text-align: center;
 }
 
 .panel {
